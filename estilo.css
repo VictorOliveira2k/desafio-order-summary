@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  height: 600px;
+  display: grid;
+  place-items: center;
+  background: url(images/pattern-background-desktop.svg) no-repeat
+    hsl(225, 100%, 94%);
+}
+
+#container {
+  max-width: 400px;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+#cabecalho {
+  background: url(images/illustration-hero.svg) no-repeat;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+#sumario {
+  width: 90%;
+  margin: auto;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+#plano {
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#plano-valor {
+  display: flex;
+  align-items: center;
+}
+
+#plano-valor1 {
+  margin-left: 15px;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+}
+
+.pag {
+  text-decoration: none;
+  margin: 15px 0 20px 0;
+  padding: 10px 100px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+
+.pag:hover,
+#plano a:hover {
+  opacity: 0.8;
+}
+
+#plano a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  margin: 10px;
+}
+
+.link:hover {
+  color: hsl(223, 47%, 23%);
+}
